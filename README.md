@@ -39,7 +39,7 @@ fc.record({
 })
 ```
 
-In the above example `nameOfFieldOne`, `nameOfFieldTwo`... are all filled with string values. Depending on your API you may want to be more precise on the types you are using. For instance if `nameOfFieldOne` expects integers you might prefer `fc.integer()`. The benefit of specifying the real types is that you may find bugs deaper in your code.
+In the above example `nameOfFieldOne`, `nameOfFieldTwo`... are all filled with string values. Depending on your API you may want to be more precise on the types you are using. For instance if `nameOfFieldOne` expects integers you might prefer `fc.integer()`. The benefit of specifying the real types is that you may find bugs deeper in your code.
 
 Nonetheless the two approches are fully complementary. Depending on the type safety provided by your back, you may want to check that sending other types will not cause Internal Server Errors like here in `/api/profile/:uid` route.
 
